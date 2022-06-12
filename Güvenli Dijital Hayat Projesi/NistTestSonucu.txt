@@ -1,0 +1,253 @@
+			      FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The nth partial sum = 528
+		(b) S_n/n               = 0,000528
+		---------------------------------------------
+SUCCESS		p_value = 0,597499335945229
+
+			BLOCK FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) Chi^2           = 7775,84375
+		(b) # of substrings = 7812
+		(c) block length    = 128
+		(d) Note: 64 bits were discarded.
+		---------------------------------------------
+SUCCESS		p_value = 0,611937008512086
+
+				RUNS TEST
+		------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		------------------------------------------
+		(a) Pi                        = 0,500264
+		(b) V_n_obs (Total # of runs) = 500140
+		(c) V_n_obs - 2 n pi (1-pi)		      2 sqrt(2n) pi (1-pi)
+		------------------------------------------
+SUCCESS		p_value = 0,779263566702616
+
+			  LONGEST RUNS OF ONES TEST
+
+		---------------------------------------------
+
+		COMPUTATIONAL INFORMATION:
+
+		---------------------------------------------
+
+		(a) N (# of substrings)  = 100
+		(b) M (Substring Length) = 10000
+		(c) Chi^2                = 10,4878462235974
+		---------------------------------------------
+
+		      F R E Q U E N C Y
+
+		---------------------------------------------
+
+		<=10  11  12  13  14  15 >=16 P-value  Assignment
+		 8 30 29 19 7 4 3
+SUCCESS{0}		p_value = 0,105554644910876
+
+				RANK TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) Probability P_32 = 0,288788095153841
+		(b)             P_31 = 0,577576190173205
+		(c)             P_30 = 0,133635714672954
+		(d) Frequency   F_32 = 303
+		(e)             F_31 = 550
+		(f)             F_30 = 123
+		(g) # of matrices    = 976
+		(h) Chi^2            = 2,34270938374393
+		(i) NOTE: 576 BITS WERE DISCARDED.
+		---------------------------------------------
+SUCCESS		p_value = 0,309946774355432
+
+				FFT TEST
+		-------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		-------------------------------------------
+		(-) Upper Bound= 1730,81838273113
+		(b) N_l        = 474849
+		(c) N_o        = 475000
+		(d) d          = -1,38567103257819
+		-------------------------------------------
+SUCCESS		p_value = 0,165847377324203
+
+chi^2   = 27,3249373090909
+p_value = 0,000621191249976802
+
+		    OVERLAPPING TEMPLATE OF ALL ONES TEST
+		-----------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		-----------------------------------------------
+		(a) n (sequence_length)      = 1000000
+		(b) m (block length of 1s)   = 9
+		(c) M (length of substring)  = 1032
+		(d) N (number of substrings) = 968
+		(e) lambda [(M-m+1)/2^m]     = 2
+		(f) eta                      = 1
+		(g) Chi^2                    = 10,3283926268028
+		(h) P-value                  = 0,0664474782155843
+		-----------------------------------------------
+		   F R E Q U E N C Y
+		   0 
+   1 
+   2 
+   3 
+   4 
+  >=5
+		-----------------------------------------------
+		 364 
+ 174 
+ 127 
+ 109 
+ 83 
+ 111 
+0,0664474782155843 SUCCESS
+
+		UNIVERSAL STATISTICAL TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) L         = 7
+		(b) Q         = 1280
+		(c) K         = 141577
+		(d) sum       = 876969,840315725
+		(f) variance  = 3,125
+		(g) exp_value = 6,1962507
+		(h) phi       = 6,19429596838275
+		(i) WARNING:  1 bits were discarded.
+		-----------------------------------------
+SUCCESS		p_value = 0,480138921135866
+
+-----------------------------------------------------
+	L I N E A R  C O M P L E X I T Y
+-----------------------------------------------------
+	M (substring length)     = {0}500
+	N (number of substrings) = {0}2000
+-----------------------------------------------------
+        F R E Q U E N C Y                            
+-----------------------------------------------------
+  C0   C1   C2   C3   C4   C5   C6    CHI2    P-value
+-----------------------------------------------------
+	Note: 0 bits were discarded!
+2271265970494130484,24454282083413  0,6436211171049460,643621117104946
+
+			       SERIAL TEST
+		---------------------------------------------
+		 COMPUTATIONAL INFORMATION:		  
+		---------------------------------------------
+		(a) Block length    (m) = 16
+		(b) Sequence length (n) = 1000000
+		(c) Psi_m               = 65993,8959359999
+		(d) Psi_m-1             = 33316,27008
+		(e) Psi_m-2             = 16922,865664
+		(f) Del_1               = 32677,6258559999
+		(g) Del_2               = 16284,2214399999
+		---------------------------------------------
+
+SUCCESS		p_value1 = 0,637109906288343
+SUCCESS		p_value2 = 0,708374450010934
+
+			APPROXIMATE ENTROPY TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) m (block length)    = 10
+		(b) n (sequence length) = 1000000
+		(c) Chi^2               = 1115,72072907484
+		(d) Phi(m)	          = -6,93090421638342
+		(e) Phi(m+1)	          = -7,62349353657883
+		(f) ApEn                = 0,692589320195408
+		--------------------------------------------
+SUCCESS		p_value = 0,0236362600799965
+
+		      CUMULATIVE SUMS (FORWARD) TEST
+		-------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		-------------------------------------------
+		(a) The maximum partial sum = 1071
+		-------------------------------------------
+SUCCESS		p_value = 0,565711904610326
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 771
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 = 2,5440972190017 p_value = 0,769839791419155
+SUCCESS		x = -3 chi^2 = 1,75609650160582 p_value = 0,881758142006627
+SUCCESS		x = -2 chi^2 = 6,8135177979536 p_value = 0,234882752780663
+SUCCESS		x = -1 chi^2 = 0,878080415045396 p_value = 0,971788196010546
+SUCCESS		x = 1 chi^2 = 3,91569390402075 p_value = 0,561616807456787
+SUCCESS		x = 2 chi^2 = 2,61585883332533 p_value = 0,758954262683971
+SUCCESS		x = 3 chi^2 = 0,200759537558711 p_value = 0,999105665114412
+SUCCESS		x = 4 chi^2 = 2,99569893724666 p_value = 0,700648974811435
+
+			RANDOM EXCURSIONS VARIANT TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 771
+		(b) Sequence Length (n)  = 1000000
+SUCCESS		
+(x = -9) Total visits = 966; p-value = 0,228437993690438
+0,228437993690438
+SUCCESS		
+(x = -8) Total visits = 921; p-value = 0,323992148133432
+0,323992148133432
+SUCCESS		
+(x = -7) Total visits = 923; p-value = 0,283016161122995
+0,283016161122995
+SUCCESS		
+(x = -6) Total visits = 926; p-value = 0,233996629583249
+0,233996629583249
+SUCCESS		
+(x = -5) Total visits = 866; p-value = 0,420001924416216
+0,420001924416216
+SUCCESS		
+(x = -4) Total visits = 841; p-value = 0,500462321838419
+0,500462321838419
+SUCCESS		
+(x = -3) Total visits = 816; p-value = 0,608308175717035
+0,608308175717035
+SUCCESS		
+(x = -2) Total visits = 796; p-value = 0,71319569525574
+0,71319569525574
+SUCCESS		
+(x = -1) Total visits = 778; p-value = 0,858518162139457
+0,858518162139457
+SUCCESS		
+(x = 1) Total visits = 799; p-value = 0,475819023493687
+0,475819023493687
+SUCCESS		
+(x = 2) Total visits = 798; p-value = 0,691387384177465
+0,691387384177465
+SUCCESS		
+(x = 3) Total visits = 763; p-value = 0,927405728373849
+0,927405728373849
+SUCCESS		
+(x = 4) Total visits = 734; p-value = 0,721742009303376
+0,721742009303376
+SUCCESS		
+(x = 5) Total visits = 712; p-value = 0,616492203247947
+0,616492203247947
+SUCCESS		
+(x = 6) Total visits = 672; p-value = 0,447167684449072
+0,447167684449072
+SUCCESS		
+(x = 7) Total visits = 642; p-value = 0,362231854102335
+0,362231854102335
+SUCCESS		
+(x = 8) Total visits = 672; p-value = 0,515079008564841
+0,515079008564841
+SUCCESS		
+(x = 9) Total visits = 723; p-value = 0,766874386994826
+0,766874386994826
+
